@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ body {
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    background: url(https://i.ibb.co/KK6Tjc8/dream-Trading-Card-3.jpg);
+    no-repeat:center/cover;
+    height: 100vh;
+    color: rgb(245, 13, 13);
+   } 
+h1{
+  font-family: 'Spectral', serif;
+  color: rgb(15, 1, 7);
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 120px;
+  text-align: top;
+}
+p {
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 50px;
+  margin-bottom: 92px;
+  color: rgb(2, 9, 15);
+}
+a {
+  margin-bottom: 75px;
+  color: rgb(139, 25, 247);
+  padding: 16px 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  
+}
+a:hover,
+.btn-primary {
+  background:rgb(212, 16, 114);
+  border-radius: 8px;
+  color: rgb(139, 25, 247);
+  text-decoration: none;
+}
+.btn-primary:hover {
+  background: rgb(243, 157, 200);
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 80px 0;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 15px;
+	margin: 20px 0 0;
+  text-align: center ;
